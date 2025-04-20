@@ -3,13 +3,6 @@
 ## Overview
 This is a **CrewAI Generator** built using **Streamlit** that allows users to generate AI agent configurations dynamically. The tool leverages **OpenAI's GPT-4o-mini** to analyze user requirements and create a structured CrewAI setup, including agents, tasks, and necessary tools.
 
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/aakriti1318/Crew-Agent-Generator/blob/main/crew_generator.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-[![Watch the demo](https://github.com/aakriti1318/Crew-Agent-Generator/blob/main/agent.png)](https://github.com/aakriti1318/Crew-Agent-Generator/issues/1#issue-2870789620)
-
 
 ## Features
 - Accepts simple English input to define AI agents and tasks
