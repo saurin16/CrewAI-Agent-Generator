@@ -1,0 +1,9 @@
+Sending request to Tavily API...
+Response status code: 401
+Error: API request failed with status 401
+Response: {
+    "detail": {
+        "error": "Unauthorized: missing or invalid API key."
+    }
+}
+

@@ -1,0 +1,13 @@
+2025-04-10 19:20:06,277 - root - DEBUG - API Key loaded: ****Bboy
+2025-04-10 19:20:06,278 - root - DEBUG - Making search request for query: Google Next 2024 conference announcements latest news
+2025-04-10 19:20:06,278 - root - DEBUG - Request URL: https://api.tavily.com/v1/search
+2025-04-10 19:20:06,278 - root - DEBUG - Request payload: {'query': 'Google Next 2024 conference announcements latest news', 'search_depth': 'advanced', 'topic': 'news', 'time_range': 'week', 'max_results': 5}
+2025-04-10 19:20:06,282 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.tavily.com:443
+2025-04-10 19:20:06,454 - urllib3.connectionpool - DEBUG - https://api.tavily.com:443 "POST /v1/search HTTP/1.1" 401 87
+2025-04-10 19:20:06,455 - root - ERROR - API Error: Status 401
+2025-04-10 19:20:06,456 - root - ERROR - Response: {
+    "detail": {
+        "error": "Unauthorized: missing or invalid API key."
+    }
+}
+
